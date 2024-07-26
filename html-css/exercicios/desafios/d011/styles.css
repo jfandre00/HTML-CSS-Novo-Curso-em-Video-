@@ -1,22 +1,22 @@
 @charset "UTF-8";
 
 body {
-    height: 97vh;
-    background-color: black;
+    height: 97vh; /* caber na tela toda */
+    background-color: black; 
     background-image: url(imagens/espaco.jpg);
-    background-size: 100% 100%;
+    background-size: 100% 100%; 
     background-repeat: no-repeat;
     position: relative;
   }
   
   #container {
     height: 50vh;
-    width: 50vh;
+    width: 50vh; /* imagem vai ocupar 50% da tela */
     background-image: url(imagens/astronauta.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    position: absolute;
-    left: 50%;
+    position: absolute; /* para a imagem ficar "SOLTA" */
+    left: 50%; /* left e top são para a imagem ficar no centro da tela, mas a borda superior esquerda que ficará */
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /* ajustando a imagem no centro da tela */
   }
